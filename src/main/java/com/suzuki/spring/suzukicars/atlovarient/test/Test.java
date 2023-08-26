@@ -22,7 +22,7 @@ public class Test {
 			Integer choice = Integer.parseInt(s.nextLine());
 			switch (choice) {
 			case 1:
-				System.out.println("Enter AltoCar Model...");
+				System.out.println("Enter AltoCar Models...");
 				String model = s.nextLine();
 				altovarient.setModel(model);
 				System.out.println("Enter AltoCar Color...");
